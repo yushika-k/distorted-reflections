@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Distorted Reflections</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f7f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #dcd6f7, #f3e5f5);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: #5e548e;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #7e57c2;
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    section:nth-of-type(even) {
+      background-color: #fafafa;
+    }
+    h2 {
+      color: #5e548e;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    h3 {
+      color: #7e57c2;
+      font-size: 1.4rem;
+      margin-top: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .quote {
+      background-color: #eceff1;
+      border-left: 5px solid #b39ddb;
+      padding: 15px;
+      margin-bottom: 20px;
+      font-style: italic;
+      border-radius: 6px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    button {
+      background-color: #7e57c2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #5e548e;
+    }
+    .affirmations {
+      background: #f3e5f5;
+      padding: 20px;
+    }
+    .affirmation-display {
+      margin-top: 20px;
+    }
+    .affirmation-display div {
+      background: #fff;
+      border-left: 4px solid #7e57c2;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      animation: fadeIn 0.4s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    input[type="text"] {
+      width: 60%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    footer {
+      background: #ddd6f3;
+      text-align: center;
+      padding: 30px;
+    }
+    footer a {
+      color: #5e548e;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Distorted Reflections</h1>
+    <p>by Yushika Khandelia, Asmi Gupta and Ayaan Singh</p>
+    <p><strong>Let's raise awareness and fight body dysmorphia among teens.</strong></p>
+  </header>
+
+  <nav>
+    <a href="#why">Why Talk</a>
+    <a href="#stories">Stories</a>
+    <a href="#support">Support</a>
+    <a href="#action">What You Can Do</a>
+    <a href="#affirmations">Affirmations</a>
+  </nav>
+
+  <section id="why">
+    <h2>Why We Need to Talk</h2>
+    <p>Survey Highlights:</p>
+    <ul>
+      <li>75% began thinking about their bodies between ages 8–13</li>
+      <li>Triggers include: media influence, puberty, peer comparison</li>
+      <li>Over 70% often compare themselves to people online</li>
+    </ul>
+  </section>
+
+  <section id="stories">
+    <h2>Real Stories</h2>
+    <div class="quote">“I wish people understood that calling me extremely thin is also called body shaming.”</div>
+    <div class="quote">“Fair skin doesn't make you better looking. Dark skin is beautiful.”</div>
+    <div class="quote">“I hyperfocus on some features because I feel judged for them.”</div>
+  </section>
+
+  <section id="support">
+    <h2>Support & Resources</h2>
+    <div class="grid-2">
+      <div>
+        <h3>Join a Support Group</h3>
+        <p>Connect with others in our weekly sessions.</p>
+        <a href="https://meet.google.com/" target="_blank"><button>Join Google Meet</button></a>
+      </div>
+      <div>
+        <h3>Educational Videos</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=M9fZzKGy7uI" target="_blank">Body Positivity Explained</a></li>
+          <li><a href="https://www.youtube.com/watch?v=xWw9lTtrKSc" target="_blank">How Media Shapes Perception</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="action">
+    <h2>What You Can Do</h2>
+    <div>
+      <h3>Schools</h3>
+      <p>Promote diverse body image and curriculum changes.</p>
+      <h3>Teachers</h3>
+      <p>Use inclusive praise, avoid appearance-based comments.</p>
+      <h3>Parents</h3>
+      <p>Model self-love, be mindful of language.</p>
+      <h3>Students</h3>
+      <p>Encourage friends, avoid comparisons, share stories.</p>
+      <h3>World Leaders</h3>
+      <p>Regulate harmful media and support body diversity in law.</p>
+    </div>
+  </section>
+
+  <section id="affirmations" class="affirmations">
+    <h2>My Body, My Voice</h2>
+    <form onsubmit="event.preventDefault(); addAffirmation();">
+      <label for="affirmation"><strong>Your Affirmation:</strong></label><br>
+      <input type="text" id="affirmation" required>
+      <button type="submit">Add</button>
+    </form>
+    <div class="affirmation-display" id="affirmationDisplay"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Distorted Reflections. Designed for Global Perspectives by Yushika Khandelia</p>
+    <p>
+      <a href="https://www.instagram.com/distortedreflections25/" target="_blank">
+        Follow us on Instagram
+      </a>
+    </p>
+  </footer>
+
+  <script>
+    function addAffirmation() {
+      const input = document.getElementById('affirmation');
+      const display = document.getElementById('affirmationDisplay');
+      const div = document.createElement('div');
+      div.textContent = input.value;
+      display.prepend(div);
+      input.value = '';
+    }
+  </script>
+</body>
+</html>
+
